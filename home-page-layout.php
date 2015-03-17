@@ -2,7 +2,7 @@
 $requesturi = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 date_default_timezone_set("Asia/Kolkata");
 $pos = strpos($requesturi, "bluebirdwaterpurifiers");
-
+$pageTitle = 'Bluebird Water Purifiers :: Home page layout';
 if ($pos) {
     define('DP_ROOT', '');
     define('FP_ROOT', '');

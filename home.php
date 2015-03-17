@@ -2,7 +2,7 @@
 $requesturi = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 date_default_timezone_set("Asia/Kolkata");
 $pos = strpos($requesturi, "duniya");
-
+$pageTitle = 'Bluebird Water Purifiers :: Home';
 if ($pos) {
     define('DP_ROOT', '');
     define('FP_ROOT', '');
@@ -36,7 +36,7 @@ include_once FP_ROOT . 'includes/header.php';
                                 <p>
                                     Enough space in all domestic model BluebirdPure Water storage Tanks for a family of 5 people.
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Make better Quality water at home than any other bottled water</h3>
                             <div>
@@ -44,7 +44,7 @@ include_once FP_ROOT . 'includes/header.php';
                                     Whatever source of water you provide the machine with, it purifies that water into a better quality water than the market available bottled water.
 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Better Taste As per Each Individual Customer</h3>
                             <div>
@@ -52,7 +52,7 @@ include_once FP_ROOT . 'includes/header.php';
                                     Choose your own taste of water at the time of installation by asking our service executive for the same. Call our customer support for any help.
 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Automatic On and Off and Flushing</h3>
                             <div>
@@ -60,7 +60,7 @@ include_once FP_ROOT . 'includes/header.php';
                                     The whole RO purification system switches On and Off automatically and also flushes out the dirty elements in the filters after it is done filtering, providing a longer life span for each filter.
 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Great purification Capacity</h3>
                             <div>
@@ -68,7 +68,7 @@ include_once FP_ROOT . 'includes/header.php';
                                     At 15L/Hr purification capacity, and many times purifying water almost 1 Liter per minute, it’s ideal for a whole family. 
 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Hard Plastic Cabinet</h3>
                             <div>
@@ -76,7 +76,7 @@ include_once FP_ROOT . 'includes/header.php';
                                     Made by food grade ABS plastic.
 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Friendly Helpline Support</h3>
                             <div>
@@ -84,7 +84,7 @@ include_once FP_ROOT . 'includes/header.php';
                                     Service Executive available at your home within 24hrs of your call made to our friendly customer support center. 
 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Works against all water sources</h3>
                             <div>
@@ -92,7 +92,7 @@ include_once FP_ROOT . 'includes/header.php';
                                     Our systems can purify any water source applied to it. Stored tank water, borewell, tap, municipal water, brackish or salty water.
 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                     </div>
                 </div>
@@ -173,42 +173,42 @@ include_once FP_ROOT . 'includes/header.php';
                                 <p>
                                     Increases the pH value of the water by serving minerals like Ca, Mg, Na and K needed for a healthy body. 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Bio-Green Technology</h3>
                             <div>
                                 <p>
                                     All Natural mineral ceramic balls and anti-bacterial ceramic balls, keeping it clean and natural.
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Ice-Tray</h3>
                             <div>
                                 <p>
                                     An Extra Ice-tray for the water storage tank to easily add ice to a room temperature stored water. 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Removes all Impurities</h3>
                             <div>
                                 <p>
                                     Removes all Impurities in water including harmful elements like lead, arsenic, pesticides and fluorides etc.
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Drink pure, healthy and Tasty Water!</h3>
                             <div>
                                 <p>
                                     Ask our service guy to make the purified output water according to your taste preference! 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                             <h3>Auto-Flushing System</h3>
                             <div>
                                 <p>
                                     Flushing out all the filters once, after the purification system has automatically stopped. Giving longer life for all filters. 
                                 </p>
-                                <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button>
+                                <!-- <button data-role="none" type="button" class="btn btn-primary btn-xs"><a data-role="none" href="#" title="read more">Read More...</a></button> -->
                             </div>
                     </div>
                 </div>

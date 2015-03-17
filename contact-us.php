@@ -2,7 +2,7 @@
 $requesturi = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 date_default_timezone_set("Asia/Kolkata");
 $pos = strpos($requesturi, "bluebirdwaterpurifiers");
-
+$pageTitle = 'Bluebird Water Purifiers :: Contact Us';
 if ($pos) {
     define('DP_ROOT', '');
     define('FP_ROOT', '');
@@ -19,8 +19,7 @@ include_once FP_ROOT . 'includes/header.php';
 
     <!-- Add your site or application content here -->
     <div class="wrap">
-        <div class="row contactUsBanner">
-            <img src="img/contactus-header.jpg" class="img-responsive" alt=""/>
+        <div class="banner contactBanner lazy">  
         </div>
         <section class="mainContent row">
             <div class="col-xs-3"> <!-- required for floating -->
@@ -1041,5 +1040,8 @@ include_once FP_ROOT . 'includes/header.php';
     include_once FP_ROOT . 'includes/fp-innerScript.php';
     ?>
     <link href="./_/css/bootstrap.vertical-tabs.min.css" type="text/css" rel="stylesheet" />
+    <style>
+        .contactBanner{  height: 320px; background:url('./img/banner1.jpg'); min-height: 322px; background-position: center center; }
+    </style>
 </body>
 </html>

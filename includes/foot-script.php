@@ -9,18 +9,18 @@
                 <!-- 	<script src="http://code.jquery.com/jquery-[version].min.js"></script>
                 <script src="http://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.js"></script>		-->
 
-<script src="_/js/vendor/jquery-1.9.1.min.js"></script>
+<script src="_/js/vendor/jquery-1.9.1.min.js" type="text/javascript"></script>
 <!--	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>	-->
 <script>window.jQuery || document.write('<script src="_/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
-<script src="_/js/vendor/bootstrap.min.js"></script>
-
+<script src="_/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="_/js/vendor/jquery.lazyload.min.js" type="text/javascript"></script>
 <link rel="stylesheet/less" href="_/css/cs.less" type="text/css"><!-- your custom lesss css here -->
-<script src="_/js/vendor/less.js"></script>
+<script src="_/js/vendor/less.js" type="text/javascript"></script>
 <link rel="stylesheet" href="_/css/cs.css"><!-- your custom css here -->
 
-<script src="_/js/plugins.js"></script><!-- plugin.js is your custom js use anyway you like in jQ  -->
-<script src="_/js/main.js"></script>
+<script src="_/js/plugins.js" type="text/javascript"></script><!-- plugin.js is your custom js use anyway you like in jQ  -->
+<script src="_/js/main.js" type="text/javascript"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>

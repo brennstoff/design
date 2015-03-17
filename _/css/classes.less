@@ -158,6 +158,27 @@
 .tdN(@custom:none){	text-decoration: @arguments; }
 .top(@custom:10px){	top: @arguments; }
 .tt(@custom:uppercase){ text-transform: @arguments; }
+.transformScale(@custom: 2){
+    -webkit-transform: scale(@arguments);
+    -moz-transform: scale(@arguments);
+    -ms-transform: scale(@arguments);
+    -o-transform: scale(@arguments);
+    transform: scale(@arguments);
+}
+.transformRotateY(@custom: 360){
+    -webkit-transform: rotateY(@arguments);
+    -moz-transform: rotateY(@arguments);
+    -ms-transform: rotateY(@arguments);
+    -o-transform: rotateY(@arguments);
+    transform: rotateY(@arguments);
+}
+.transformRotateX(@custom: 360){
+    -webkit-transform: rotateX(@arguments);
+    -moz-transform: rotateX(@arguments);
+    -ms-transform: rotateX(@arguments);
+    -o-transform: rotateX(@arguments);
+    transform: rotateX(@arguments);
+}
 .ts(@custom:none){ text-shadow: @arguments; }
 .w(@custom:33%){ width: @arguments; }
 .zi(@custom:1){ z-index: @arguments; }

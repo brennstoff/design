@@ -1,14 +1,14 @@
 <header class="absolute topHead col-md-12">
     <div class="row">
         <div class="branding col-md-3">
-            <!--    <img src="./img/web-partials/head/logo.gif" alt=""/>    -->
-            <img src="./img/web-partials/head/logo-svg-05.svg" alt=""/>
+            <!--    <img data-original="./img/web-partials/head/logo.gif" alt=""/>    -->
+            <img data-original="./img/web-partials/head/logo-svg-05.svg" class="lazy" alt=""/>
         </div>
         <div class="righthead col-md-9" id="nav_box">
             <div class="searchBox">
                 <div class="helpLinks">
                     | Dealer Location
-                    <img src="./img/web-partials/head/dealerLocation.png" alt=""/> | 
+                    <img data-original="./img/web-partials/head/dealerLocation.png" class="lazy" alt=""/> | 
                     Call Toll Free 1800 113 911
                 </div>
                 <div class="searchBar">
@@ -28,8 +28,8 @@
                         <li><a href="about-us.php">About Us</a></li>
                         <li><a href="technology.php">Technology</a></li>
                         <li><a href="faqs.php">FAQ's</a></li>
-                        <li><a href="#" id="megaMenu-one">Products</a></li>
-                        <li><a href="home.php">Downloads</a></li>
+                        <li><a href="bluebirdwaterpurifiers-products.php" id="megaMenu-one">Products</a></li>
+                        <li><a href="downloads.php">Downloads</a></li>
                         <li><a href="contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
@@ -40,35 +40,35 @@
     <div class="slideMenu">
         <div class="row megaMenu-div" id="megaMenu-one-div">
             <div class="col-md-3" id="menuProduct1">
-                <a href="#">
+                <a href="bluebirdwaterpurifiers-products.php">
                     <div class="menuProductImg">
-                        <img class="img-responsive desaturate" src="./img/native-products/p1-png.png" alt=""/>
+                        <img class="img-responsive desaturate lazy" data-original="./img/native-products/p1-png.png" alt=""/>
                     </div>
-                    <div class="menuProductName">Product 1</div>
+                    <div class="menuProductName">Pure Diamond UF</div>
                 </a>
             </div>
             <div class="col-md-3" id="menuProduct2">
-                <a href="#">
+                <a href="bluebirdwaterpurifiers-products.php">
                     <div class="menuProductImg">
-                        <img class="img-responsive desaturate" src="./img/native-products/p2-png.png" alt=""/>
+                        <img class="img-responsive desaturate lazy" data-original="./img/native-products/p2-png.png" alt=""/>
                     </div>
-                    <div class="menuProductName">Product 1</div>
+                    <div class="menuProductName">Blue Moon RO</div>
                 </a>
             </div>
             <div class="col-md-3" id="menuProduct3">
-                <a href="#">
+                <a href="bluebirdwaterpurifiers-products.php">
                     <div class="menuProductImg">
-                        <img class="img-responsive desaturate" src="./img/native-products/p3-png.png" alt=""/>
+                        <img class="img-responsive desaturate lazy" data-original="./img/native-products/p3-png.png" alt=""/>
                     </div>
-                    <div class="menuProductName">Product 1</div>
+                    <div class="menuProductName">Pure Diamond Bio Purifier</div>
                 </a>
             </div>
             <div class="col-md-3" id="menuProduct4">
-                <a href="#">
+                <a href="bluebirdwaterpurifiers-products.php">
                     <div class="menuProductImg">
-                        <img class="img-responsive desaturate" src="./img/native-products/p4-png.png" alt=""/>
+                        <img class="img-responsive desaturate lazy" data-original="./img/native-products/p4-png.png" alt=""/>
                     </div>
-                    <div class="menuProductName">Product 1</div>
+                    <div class="menuProductName">Ice-Crystal RO</div>
                 </a>
             </div>
 

@@ -2,7 +2,7 @@
 $requesturi = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 date_default_timezone_set("Asia/Kolkata");
 $pos = strpos($requesturi, "bluebirdwaterpurifiers");
-
+$pageTitle = 'Bluebird Water Purifiers :: Vertical Tag Layout';
 if ($pos) {
     define('DP_ROOT', '');
     define('FP_ROOT', '');
@@ -19,7 +19,7 @@ include_once FP_ROOT . 'includes/header.php';
 
     <!-- Add your site or application content here -->
     <div class="wrap">
-        <div class="row contactUsBanner">
+        <div class="row contactUsBanner lazy">
             <img src="img/contactus-header.jpg" class="img-responsive" alt=""/>
         </div>
         <section class="mainContent row">

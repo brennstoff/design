@@ -10,25 +10,25 @@
         </div>
         <div class="col-md-4">
             <span class="col-teaser-img">
-                <img src="./img/OtherBrands/light-product.png" alt="" class="img-responsive" align="center" />
+                <img data-original="./img/OtherBrands/light-product.png" alt="" class="img-responsive lazy" align="center" />
             </span>
-            <img src="./img/OtherBrands/BlueBirdLight-Logo.png" alt="" class="img-responsive" />
+            <img data-original="./img/OtherBrands/BlueBirdLight-Logo.png" alt="" class="img-responsive lazy" />
             <p>Spreading brightness with LED Lighting Products
             </p>
         </div>
         <div class="col-md-4">
             <span class="col-teaser-img">
-                <img src="./img/OtherBrands/solar-product.png" alt="" class="img-responsive" align="center" />
+                <img data-original="./img/OtherBrands/solar-product.png" alt="" class="img-responsive lazy" align="center" />
             </span>
-            <img src="./img/OtherBrands/BlueBirdSolar.png" alt="" class="img-responsive" />
+            <img data-original="./img/OtherBrands/BlueBirdSolar.png" alt="" class="img-responsive lazy" />
             <p>Co-powering the Future with Solar Products & Solutions
             </p>
         </div>
         <div class="col-md-4">
             <span class="col-teaser-img">
-                <img src="./img/OtherBrands/stabilizer-product.png" alt="" class="img-responsive" align="center" />
+                <img data-original="./img/OtherBrands/stabilizer-product.png" alt="" class="img-responsive lazy" align="center" />
             </span>
-            <img src="./img/OtherBrands/bluebird-Stabilizers-new.png" alt="" class="img-responsive" />
+            <img data-original="./img/OtherBrands/bluebird-Stabilizers-new.png" alt="" class="img-responsive lazy" />
             <p>Automatic Voltage Stabilizers, Servo Voltage Stabilizers, CVTs & Isolation Transformers
             </p>
         </div>

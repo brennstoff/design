@@ -2,7 +2,7 @@
 $requesturi = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 date_default_timezone_set("Asia/Kolkata");
 $pos = strpos($requesturi, "bluebirdwaterpurifiers");
-
+$pageTitle = 'Bluebird Water Purifiers :: About Us';
 if ($pos) {
     define('DP_ROOT', '');
     define('FP_ROOT', '');
@@ -19,25 +19,22 @@ include_once FP_ROOT . 'includes/header.php';
 
     <!-- Add your site or application content here -->
     <div class="wrap aboutUs" data-role="content">
-        <div class="row aboutUsBanner">
+        <div class="row aboutUsBanner lazy">
             <div class="col-md-6">
-                <img src="img/pages/About-Us-homepage.jpg" class="img-responsive" alt=""/>
+                <img data-original="img/pages/About-Us-homepage.jpg" class="img-responsive lazy" alt=""/>
             </div>
             <div class="col-md-6">
                 <h1 class="cW">About Us</h1>
                 <p> 
-                    bluebird is a reputed leading Brand of Automatic Voltage Stabilizers,Servo Voltage Stabilizers, Constant Voltage Transformers & Control/Isolation Transformers for more than past Three Decades.
-
+                    Bluebird is a reputed leading Brand of Automatic Voltage Stabilizers, Servo Voltage Stabilizers, Constant Voltage Transformers & Control / Isolation Transformers for more than past Three Decades.
                 </p>
                 <p> 
                     Our products are well appreciated and have received much recognition for their quality. We strive to offer Best Quality at best competitive rates.
-
                 </p>
                 <p>
                     Our company owns advanced equipment, talented and professional staff, and complete production and operation methods with high quality and at favourable price, our products have earned good reputation among customers.
                 </p>
             </div>
-
         </div>
         <div class="row">
             <div class="col-md-12 ">
@@ -49,9 +46,8 @@ include_once FP_ROOT . 'includes/header.php';
         <section class="mainContent row">
             <div class="col-md-4 pR0">
                 <div class="teaser-img">
-                    <img src="img/pages/our-vision.jpg" class="img-responsive" alt=""/>
+                    <img data-original="img/pages/our-vision.jpg" class="img-responsive lazy" alt=""/>
                 </div>
-                
                 <h2>Our Vision</h2>
                 <p>
                     To make pure clean water available in all areas of India and to people who have little/no access to pure drinking water. To innovate and develop best possible water treatment systems. 
@@ -59,9 +55,8 @@ include_once FP_ROOT . 'includes/header.php';
             </div>
             <div class="col-md-4 pR0">
                 <div class="teaser-img">
-                    <img src="img/pages/mission.png" class="img-responsive" alt=""/>
+                    <img data-original="img/pages/mission.png" class="img-responsive lazy" alt=""/>
                 </div>
-                
                 <h2>Our Mission</h2>
                 <p>
                     To create homely relationships with all our customers and our employees. To achieve highest quality providers in purification systems and at the cheapest prices available. 
@@ -69,7 +64,7 @@ include_once FP_ROOT . 'includes/header.php';
             </div>
             <div class="col-md-4">
                 <div class="teaser-img">
-                    <img src="img/pages/our-value.jpg" class="img-responsive" alt=""/>
+                    <img data-original="img/pages/our-value.jpg" class="img-responsive lazy" alt=""/>
                 </div>
                 <h2>Our Value</h2>
                 <p>

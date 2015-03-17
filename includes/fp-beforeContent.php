@@ -1,6 +1,6 @@
 <!--    Header  -->
 <section class="beforeContent">
-    <div class="banner">
+    <div class="banner lazy">
         <div class="row">
             <form action="#" name="bookdemo" class="bookDemoHome col-md-4" id="form-id">
                 <input data-role="none" placeholder="Name *" required="true" type="text" />
@@ -19,28 +19,28 @@
         </div>
         <div class="col-md-3">
             <span class="col-teaser-img">
-                <img src="./img/web-partials/features/water-alkaline.png" alt="" class="img-responsive" align="center" />
+                <img data-original="./img/web-partials/features/water-alkaline.png" alt="" class="img-responsive lazy" align="center" />
             </span>
             <p>Increases the pH value of the water by serving minerals like Ca, Mg, Na and K needed for a healthy body.
             </p>
         </div>
         <div class="col-md-3">
             <span class="col-teaser-img">
-                <img src="./img/web-partials/features/bio-green-tech.png" alt="" class="img-responsive" align="center" />
+                <img data-original="./img/web-partials/features/bio-green-tech.png" alt="" class="img-responsive lazy" align="center" />
             </span>
             <p>All Natural mineral ceramic balls and anti-bacterial ceramic balls, keeping it clean and natural. 
             </p>
         </div>
         <div class="col-md-3">
             <span class="col-teaser-img">
-                <img src="./img/web-partials/features/ice-tray.png" alt="" class="img-responsive" align="center" />
+                <img data-original="./img/web-partials/features/ice-tray.png" alt="" class="img-responsive lazy" align="center" />
             </span>
             <p>An Extra Ice-tray for the water storage tank to easily add ice to a room temperature stored water. 
             </p>
         </div>
         <div class="col-md-3">
             <span class="col-teaser-img">
-                <img src="./img/web-partials/features/filteration-membrane.png" alt="" class="img-responsive" align="center" />
+                <img data-original="./img/web-partials/features/filteration-membrane.png" alt="" class="img-responsive lazy" align="center" />
             </span>
             <p>Removes all Impurities in water including harmful elements like lead, arsenic, pesticides and fluorides etc.
             </p>
