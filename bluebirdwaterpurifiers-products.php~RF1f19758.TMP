@@ -95,16 +95,102 @@
         </section>
     </div><!-- wraper ends here -->
     <div id="dialog1">
-        <img class="img-responsive" src="img/product-info/BANNER-BLUEBIRD-ufn.jpg" width="1080" height="360" alt="product-info">
+        <img class="img-responsive" src="img/product-info/BANNER-BLUEBIRD-UF.jpg" width="1080" height="360" alt="product-info">
     </div>
     <div id="dialog2">
-		<img class="img-responsive" src="img/product-info/BANNER-BLUEBIRD-BLUEMOON.jpg" width="1080" height="360" alt="product-info">
+        <div class="col-md-3">
+            Hadron has a selection of preset styles with a diverse array of different background colors and shades to dramatically change the overall appearance.
+        </div>
+        <div class="col-md-9">
+            <div id="product2-accordion">
+                <h3>Features of Blue Bird Wall Mounting RO</h3>
+                <div>
+                    <ul>
+                        <li>
+                            feature 1
+                        </li>
+                    </ul>
+                </div>
+                <h3>Bio-Green Technology</h3>
+                <div>
+                    <p>
+                        All Natural mineral ceramic balls and anti-bacterial ceramic balls, keeping it clean and natural.
+                    </p>
+                </div>
+                <h3>Ice-Tray</h3>
+                <div>
+                    <p>
+                        An Extra Ice-tray for the water storage tank to easily add ice to a room temperature stored water. 
+                    </p>
+                </div>
+                <h3>Removes all Impurities</h3>
+                <div>
+                    <p>
+                        Removes all Impurities in water including harmful elements like lead, arsenic, pesticides and fluorides etc.
+                    </p>
+                </div>
+                <h3>Drink pure, healthy and Tasty Water!</h3>
+                <div>
+                    <p>
+                        Ask our service guy to make the purified output water according to your taste preference! 
+                    </p>
+                </div>
+                <h3>Auto-Flushing System</h3>
+                <div>
+                    <p>
+                        Flushing out all the filters once, after the purification system has automatically stopped. Giving longer life for all filters. 
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="dialog3">
-        <img class="img-responsive" src="img/product-info/BANNER-BLUEBIRD-ufn.jpg" width="1080" height="360" alt="product-info">
+        <div class="col-md-3">
+            Hadron has a selection of preset styles with a diverse array of different background colors and shades to dramatically change the overall appearance.
+        </div>
+        <div class="col-md-9">
+            <div id="product3-accordion">
+                <h3>Makes Water alkaline in nature</h3>
+                <div>
+                    <p>
+                        Increases the pH value of the water by serving minerals like Ca, Mg, Na and K needed for a healthy body. 
+                    </p>
+                </div>
+                <h3>Bio-Green Technology</h3>
+                <div>
+                    <p>
+                        All Natural mineral ceramic balls and anti-bacterial ceramic balls, keeping it clean and natural.
+                    </p>
+                </div>
+                <h3>Ice-Tray</h3>
+                <div>
+                    <p>
+                        An Extra Ice-tray for the water storage tank to easily add ice to a room temperature stored water. 
+                    </p>
+                </div>
+                <h3>Removes all Impurities</h3>
+                <div>
+                    <p>
+                        Removes all Impurities in water including harmful elements like lead, arsenic, pesticides and fluorides etc.
+                    </p>
+                </div>
+                <h3>Drink pure, healthy and Tasty Water!</h3>
+                <div>
+                    <p>
+                        Ask our service guy to make the purified output water according to your taste preference! 
+                    </p>
+                </div>
+                <h3>Auto-Flushing System</h3>
+                <div>
+                    <p>
+                        Flushing out all the filters once, after the purification system has automatically stopped. Giving longer life for all filters. 
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="dialog4">
-        <img src="img/product-info/BANNER-BLUEBIRD.jpg" class="img-responsive" width="1080" height="360">
+        <img src="img/product-info/BANNER-BLUEBIRD-ICE-CRYSTAL.jpg" class="img-responsive" width="1080" height="360">
     </div>
     <!-- Navigation -->
     <?php
