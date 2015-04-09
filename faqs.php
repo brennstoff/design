@@ -207,7 +207,8 @@ include_once FP_ROOT . 'includes/header.php';
         <script src="_/js/vendor/jquery.mobile-1.4.0.min.js"></script>     
     -->
      <style>
-        .faqsBanner{  height: 320px; background:url('./img/banner1.jpg'); min-height: 322px; background-position: center center; }
+        .faqsBanner{  background:url('./img/banner1.jpg'); min-height: 322px; background-position: center center; }
+        .wrap .mainContent{padding: 15px; }
     </style>
 </body>
 </html>

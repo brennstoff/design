@@ -62,7 +62,8 @@ include_once FP_ROOT . 'includes/header.php';
     include_once FP_ROOT . 'includes/fp-innerScript.php';
     ?>
     <style>
-        .downloadsBanner{  height: 320px; background:url('./img/banner1.jpg'); min-height: 322px; background-position: center center; }
+        .downloadsBanner{  background:url('./img/banner1.jpg'); min-height: 322px; background-position: center center; }
+        .wrap .mainContent{padding: 15px; }
     </style>
 </body>
 </html>

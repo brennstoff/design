@@ -1,10 +1,13 @@
 <header class="absolute topHead col-md-12">
     <div class="row">
-        <div class="branding col-md-3">
+        <div class="branding col-md-3 col-sm-9 col-xs-9 col-rc-9">
             <!--    <img data-original="./img/web-partials/head/logo.gif" alt=""/>    -->
-            <img data-original="./img/web-partials/head/logo-svg-05.svg" class="lazy" alt=""/>
+            <img src="./img/web-partials/head/logo-svg-05.svg" alt=""/>
         </div>
-        <div class="righthead col-md-9" id="nav_box">
+        <div class="col-sm-3 col-xs-3 col-rc-3 visible-sm visible-xs visible-rc">
+            <button data-role="none" id="secondMenuTrigger" class="btn-lg btn-primary"><i class="glyphicon glyphicon-align-justify"></i></button>
+        </div>
+        <div class="righthead col-md-9 hidden-sm hidden-rc hidden-xs" id="nav_box">
             <div class="searchBox">
                 <div class="helpLinks">
                     | Dealer Location
@@ -37,7 +40,7 @@
         </div>
     </div>
 
-    <div class="slideMenu">
+    <div class="slideMenu hidden-sm hidden-rc hidden-xs">
         <div class="row megaMenu-div" id="megaMenu-one-div">
             <div class="col-md-3" id="menuProduct1">
                 <a href="bluebirdwaterpurifiers-products.php">
@@ -73,5 +76,17 @@
             </div>
 
         </div>
+    </div>
+    
+    <div class="secondMenu hidden-md hidden-lg" id="smMenu">
+        <ul class="nav primary">
+            <li class="active"><a href="home.php">Home</a></li>
+            <li><a href="about-us.php">About Us</a></li>
+            <li><a href="technology.php">Technology</a></li>
+            <li><a href="faqs.php">FAQ's</a></li>
+            <li><a href="bluebirdwaterpurifiers-products.php" id="">Products</a></li>
+            <li><a href="downloads.php">Downloads</a></li>
+            <li><a href="contact-us.php">Contact Us</a></li>
+        </ul>
     </div>
 </header>

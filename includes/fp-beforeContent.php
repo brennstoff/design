@@ -1,7 +1,8 @@
 <!--    Header  -->
 <section class="beforeContent">
     <div class="banner lazy">
-        <div class="row">
+        <img src="./img/banner1.jpg" class="visible-sm visible-xs visible-rc hidden-md img-responsive" alt=""/>
+        <div class="row visible-md hidden-sm hidden-rc">
             <form action="#" name="bookdemo" class="bookDemoHome col-md-4" id="form-id">
                 <input data-role="none" placeholder="Name *" required="true" type="text" />
                 <input data-role="none" placeholder="Mobile *" required="true" type="text" />

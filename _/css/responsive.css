@@ -1,0 +1,78 @@
+html{
+    font-family:calibri !important;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+header.topHead{z-index: 10; }
+header.topHead .searchBar form input{ background-size: 100% 79%; background-position: center; }
+body#page-top{ font-family: calibri !important; }
+section.mainContent p, section.mainContent h1, section.mainContent h2, section.mainContent h3, section.mainContent h4, section.mainContent h5{ font-family: calibri !important; }
+
+@media (min-width:320px){
+    
+}
+
+@media (min-width:480px){
+    
+}
+
+@media (max-width:480px){
+    
+}
+
+@media (min-width:0px) and (max-width:480px){
+    
+}
+
+@media (min-width:768px){
+    
+}
+
+@media (min-width:0px) and (max-width:768px){
+    h1, .h1, h2, .h2, h3, .h3, h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a{ text-align: center;}
+    .wrap, div.wrap.aboutUs{ padding-top: 120px !important; }
+    .aboutUs .mainContent .pR0{ padding-right: 15px !important; }
+	.wrap.productsContent .mainContent{ padding: 15px !important; }
+	
+	.branding{ background: none !important;}
+    .branding img{ max-width:150px; margin: 10px;}
+    .banner{ background: none !important;  min-height: inherit !important; }
+	
+    .secondMenu li, .copyright, .copyright p.right, .footerNav, secondMenu{ text-align: center !important; }
+    .secondMenu li{ border-top: 1px solid #B3D4Fc; }
+	
+    .aboutUs .aboutUsBanner{ margin-top: 0px !important; }
+	.productsContent .mobileProduct{
+		box-shadow: 5px 5px 5px #B3D4FC; border: 1px solid #B3D4FC; margin: 10px 0px; padding-top: 0px;
+	}
+	.productsContent .mobileProduct img{margin:0 auto; max-height: 200px; }
+	
+	#parentVerticalTab input[type="submit"],#parentVerticalTab input[type="reset"]{ margin-top:20px;}
+    .singleProduct h1,.singleProduct h3 { color:#000 !important; }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    
+}
+ 
+@media (min-width:992px){
+    
+}
+
+@media (min-width:992px) and (max-width:1199px){
+     
+}
+
+@media (min-width:1200px){
+    
+}
+
+
+
+
+
+
+
+

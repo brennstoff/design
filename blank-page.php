@@ -43,8 +43,8 @@ include_once FP_ROOT . 'includes/header.php';
     include_once FP_ROOT . 'includes/foot-script.php';
     include_once FP_ROOT . 'includes/fp-innerScript.php';
     ?>
-        <style>
-        .blankBanner{  height: 320px; background:url('./img/banner1.jpg'); min-height: 322px; background-position: center center; }
+        <style>.mainContent{padding:15px; }
+        .blankBanner{  background:url('./img/banner1.jpg'); min-height: 322px; background-position: center center; }
     </style>
 </body>
 </html>

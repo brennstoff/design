@@ -21,22 +21,22 @@ include_once FP_ROOT . 'includes/header.php';
     <div class="wrap">
         <div class="banner contactBanner lazy">  
         </div>
-        <section class="mainContent row">
-            <div class="col-xs-3"> <!-- required for floating -->
+        <section class="mainContent row" id="parentVerticalTab">
+            <!--	<div class="col-xs-3"> <!-- required for floating -->
                 <!-- Nav tabs -->
-                <ul class="nav nav-tabs tabs-left">
-                    <li class="active"><a href="#feedback" data-toggle="tab">Feedback</a></li>
-                    <li><a href="#office" data-toggle="tab">Offices Locations</a></li>
-                    <li><a href="#customer" data-toggle="tab">Customer Service</a></li>
-                    <li><a href="#free" data-toggle="tab">Request for Free Demo</a></li>
-                    <li><a href="#partner" data-toggle="tab">Become a Trade Partner</a></li>
+                <ul class="resp-tabs-list hor_1">
+				<!--	<ul class="nav nav-tabs tabs-left">		-->
+                    <li>Feedback</li>
+                    <li>Offices Locations</li>
+                    <li>Customer Service</li>
+                    <li>Request for Free Demo</li>
+                    <li>Become a Trade Partner</li>
                 </ul>
-            </div>
+            <!--	</div>
 
-            <div class="col-xs-9">
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div class="tab-pane active" id="feedback">
+            <div class="col-xs-9">		-->
+                <div class="resp-tabs-container hor_1">
+                    <div>
                         <h4>Feedback Form</h4>												
                         <div class="content form-content">
                             <p>Being a customer oriented company we would love to hear your valuable feedback, which would help us serve you better.</p>
@@ -349,7 +349,7 @@ include_once FP_ROOT . 'includes/header.php';
                             </form>
                         </div>
                     </div>
-                    <div class="tab-pane" id="office">
+                    <div>
                         <div class="col-md-6">
                             <h4>Head Office</h4>
                             <div class="quick-info-content clearfix">
@@ -401,7 +401,7 @@ include_once FP_ROOT . 'includes/header.php';
                             </div>
                         </div>	
                     </div>
-                    <div class="tab-pane" id="customer">
+                    <div>
                         <h4>Customer Service</h4>
                         <div class="customer-service">
                             <p>For service related queries in Delhi/NCR only, call our helpline number on<br/>+91-120-4669666 (Monday to Saturday, 9:00am to 5:30pm) or you can contact us at<br/>the following address:</p>
@@ -464,7 +464,7 @@ include_once FP_ROOT . 'includes/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="free">
+                    <div>
                         <h4>Request for Free Demo</h4>												
                         <div class="content form-content request">
                             <p>To take a closer look at our products, request a free demo right at your doorstep.</p>
@@ -657,7 +657,7 @@ include_once FP_ROOT . 'includes/header.php';
                             </form>
                         </div>
                     </div>
-                    <div class="tab-pane" id="partner">
+                    <div>
                         <h4>Become a Trade Partner</h4>												
                         <div class="content form-content trade-partner">
                             <p>Are you a retailer? Freelancer? Entrepreneur? Service Provider?</p>
@@ -993,26 +993,7 @@ include_once FP_ROOT . 'includes/header.php';
                                 <div class="field half right" style="position:relative;">
                                     <label>Brands Dealing In<span>*</span></label>
                                     <input type="text" name="brands_dealing" class="form-control" />
-                                    <!--
-                                    <div id="Retail-Distributor" class="Interested-Partner">
-                                        Parties interested in distribution of KENT products to retail outlets dealing in white goods and/or home appliances 
-                                    </div>
-                                    <div id="Retail-Outlet" class="Interested-Partner">
-                                        Parties involved in running a retail shop selling white goods and/or home appliances and interested in representing KENT products 
-                                    </div>
-                                    <div id="Direct-Sales-Distributor" class="Interested-Partner">
-                                        Parties interested in hiring 15+ direct sales executives and engaging in door to door sales of KENT Products 
-                                    </div>
-                                    <div id="Direct-Sales-Dealer" class="Interested-Partner">
-                                        Parties interested in hiring 5+ direct sales executives and engaging in door to door sales of KENT Products
-                                    </div>
-                                    <div id="Kent-Shoppe" class="Interested-Partner">
-                                        Parties interested in opening an exclusive KENT only retail outlet
-                                    </div>
-                                    <div id="Service-Franchisee" class="Interested-Partner">
-                                        Parties interested in doing after-sales service and installation of KENT products
-                                    </div>
-                                    -->
+                                    
                                 </div>
                                 <div class="field full clearfix">
                                     <label>Comments :</label>
@@ -1026,8 +1007,8 @@ include_once FP_ROOT . 'includes/header.php';
                             </form>							
                         </div>
                     </div>
-                </div>
-            </div>  
+            <!--    </div>  -->
+				</div>
         </section>
     </div><!-- wraper ends here -->
     <!-- Navigation -->
@@ -1039,9 +1020,35 @@ include_once FP_ROOT . 'includes/header.php';
     include_once FP_ROOT . 'includes/foot-script.php';
     include_once FP_ROOT . 'includes/fp-innerScript.php';
     ?>
-    <link href="./_/css/bootstrap.vertical-tabs.min.css" type="text/css" rel="stylesheet" />
+    
+	<link rel="stylesheet" type="text/css" href="_/css/easy-responsive-tabs.css " />
+    <script src="_/js/vendor/easyResponsiveTabs.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  
+			//Vertical Tab
+			$('#parentVerticalTab').easyResponsiveTabs({
+				type: 'vertical', //Types: default, vertical, accordion
+				width: 'auto', //auto or any width like 600px
+				fit: true, // 100% fit in a container
+				closed: 'accordion', // Start closed if in accordion view
+				tabidentify: 'hor_1', // The tab groups identifier
+				activate: function(event) { // Callback function if tab is switched
+					var $tab = $(this);
+					var $info = $('#nested-tabInfo2');
+					var $name = $('span', $info);
+					$name.text($tab.text());
+					$info.show();
+				}
+			});
+		});
+	</script>
+	
     <style>
-        .contactBanner{  height: 320px; background:url('./img/banner1.jpg'); min-height: 322px; background-position: center center; }
+        .contactBanner{   background:url('./img/banner1.jpg'); min-height: 322px; background-position: center center; }
+        .wrap .mainContent{padding: 15px; }
+        #parentVerticalTab{margin: 0 auto !important; }
     </style>
 </body>
 </html>

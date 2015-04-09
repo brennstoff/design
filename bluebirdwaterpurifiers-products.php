@@ -18,58 +18,102 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="productBanner" id="rainCanvas">
+    <div class="productBanner visible-md visible-lg" id="rainCanvas">
         <img id="background" alt="background" data-original="" />
     </div>
     <div class="wrap productsContent">
-        <div class="row productAnimation">
+        <div class="row productAnimation visible-md visible-lg">
             <div class="col-md-3 dt1">
-                <img class="img-responsive desaturate product1 lazy" src="./img/native-products/p1-png.png" alt=""/>
-                <div class="absolute" style="min-height:auto;">
-                    <span class="readMorePlus btn btn-primary">
-                        <i class="glyphicon glyphicon-plus"></i> Read More
-                    </span>
-                </div>
+                <a href="product-ufn.php">
+                    <img class="img-responsive desaturate product1 lazy" src="./img/native-products/p1-png.png" alt=""/>
+                    <div class="absolute" style="min-height:auto;">
+                        <span class="readMorePlus btn btn-primary">
+                            <i class="glyphicon glyphicon-plus"></i> Read More
+                        </span>
+                    </div>
+                </a>
             </div>
             <div class="col-md-3 dt2">
-                <img class="img-responsive desaturate product2 lazy" src="./img/native-products/p2-png.png" alt=""/>
-                <div class="absolute" style="min-height:auto;">
-                    <span class="readMorePlus btn btn-primary">
-                        <i class="glyphicon glyphicon-plus"></i> Read More
-                    </span>
-                </div>
+                <a href="product-bluemoon.php">
+                    <img class="img-responsive desaturate product2 lazy" src="./img/native-products/p2-png.png" alt=""/>
+                    <div class="absolute" style="min-height:auto;">
+                        <span class="readMorePlus btn btn-primary">
+                            <i class="glyphicon glyphicon-plus"></i> Read More
+                        </span>
+                    </div>
+                </a>
             </div>
             <div class="col-md-3 dt3">
-                <img class="img-responsive desaturate product3 lazy" src="./img/native-products/p3-png.png" alt=""/>
-                <div class="absolute" style="min-height:auto;">
-                    <span class="readMorePlus btn btn-primary">
-                        <i class="glyphicon glyphicon-plus"></i> Read More
-                    </span>
-                </div>
+                <a href="product-bluebird.php">
+                    <img class="img-responsive desaturate product3 lazy" src="./img/native-products/p3-png.png" alt=""/>
+                    <div class="absolute" style="min-height:auto;">
+                        <span class="readMorePlus btn btn-primary">
+                            <i class="glyphicon glyphicon-plus"></i> Read More
+                        </span>
+                    </div>
+                </a>
             </div>
             <div class="col-md-3 dt4">
-                <img class="img-responsive desaturate product4 lazy" src="./img/native-products/p4-png.png" alt=""/>
-                <div class="absolute" style="min-height:auto;">
-                    <span class="readMorePlus btn btn-primary">
-                        <i class="glyphicon glyphicon-plus"></i> Read More
-                    </span>
-                </div>
+                <a href="product-ice-crystal.php">
+                    <img class="img-responsive desaturate product4 lazy" src="./img/native-products/p4-png.png" alt=""/>
+                    <div class="absolute" style="min-height:auto;">
+                        <span class="readMorePlus btn btn-primary">
+                            <i class="glyphicon glyphicon-plus"></i> Read More
+                        </span>
+                    </div>
+                </a>
             </div>
         </div>
         <section class="mainContent row" data-role="content" style="margin-bottom:100px">
-            <h1>Bluebird Advantages</h1>
+			<h1 class="hidden-md hidden-lg ">Our Products</h1>
+			<div class="col-xs-12 col-sm-12 hidden-md hidden-lg mobileProduct">
+				<a href="product-ufn.php">
+					<img class="img-responsive desaturate product1 lazy" src="./img/native-products/p1-png.png" alt=""/>
+					<h3>BANNER-BLUEBIRD-ufn</h3>
+					<span class="btn btn-primary btn-block">
+                        <i class="glyphicon glyphicon-plus"></i> Read More
+                    </span>
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-12 hidden-md hidden-lg mobileProduct">
+                            <a href="product-bluemoon.php">
+					<img class="img-responsive desaturate product1 lazy" src="./img/native-products/p2-png.png" alt=""/>
+					<h3>BANNER-BLUEBIRD-BLUEMOON</h3>
+					<span class="btn btn-primary btn-block">
+                        <i class="glyphicon glyphicon-plus"></i> Read More
+                    </span>
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-12 hidden-md hidden-lg mobileProduct">
+                            <a href="product-bluebird.php">
+					<img class="img-responsive desaturate product1 lazy" src="./img/native-products/p3-png.png" alt=""/>
+					<h3>BANNER-BLUEBIRD</h3>
+					<span class="btn btn-primary btn-block">
+                        <i class="glyphicon glyphicon-plus"></i> Read More
+                    </span>
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-12 hidden-md hidden-lg mobileProduct">
+                            <a href="product-ice-crystal.php">
+					<img class="img-responsive desaturate product1 lazy" src="./img/native-products/p4-png.png" alt=""/>
+					<h3>BANNER-BLUEBIRD-ICE-CRYSTAL</h3>
+					<span class="btn btn-primary btn-block">
+                        <i class="glyphicon glyphicon-plus"></i> Read More
+                    </span>
+				</a>
+			</div>
+            <h3>Bluebird Advantages</h3>
             <div id="advantages">
                 <h3>Heritage</h3>
                 <div>
                     <p>
-                        bluebird is a reputed leading Brand of Automatic Voltage Stabilizers,Servo Voltage Stabilizers, Constant Voltage Transformers & Control/Isolation Transformers for more than past Three Decades. Our products are well appreciated and have received much recognition for their quality. 
+                        Bluebird is a reputed leading Brand of Automatic Voltage Stabilizers,Servo Voltage Stabilizers, Constant Voltage Transformers & Control/Isolation Transformers for more than past Three Decades. Our products are well appreciated and have received much recognition for their quality.
                     </p>
                 </div>
-                <h3>Availability
-                </h3>
+                <h3>Availability</h3>
                 <div>
                     <p>
-                        With Over 600 dealers in 3 states, bluebird water purifiers has a large channel and service network. We are dedicated to serve you as best we can, and as satisfied as you can be. All customer support needed is fulfilled within 24hrs. 
+                        With Over 600 dealers in 3 states, bluebird water purifiers has a large channel and service network. We are dedicated to serve you as best we can, and as satisfied as you can be. All customer support needed is fulfilled within 24hrs.
                     </p>
                 </div>
                 <h3>Quality</h3>
@@ -78,8 +122,7 @@
                         Our stringent quality norms ensure 0% failure ratio for any Bluebird water purifier. Clean, tasty and pure water ensured from every system. Our long term relationships with our clients is based on their satisfaction and our consistent performance.
                     </p>
                 </div>
-                <h3>Affordability
-                </h3>
+                <h3>Affordability</h3>
                 <div>
                     <p>
                         All bluebird water purifiers come at affordable prices and best quality for everyone. All our products are designed and manufactured to favour our customer’s needs. All products are also priced at a very competitive rate, to ensure the customer gets more than what they pay for.
@@ -88,24 +131,13 @@
                 <h3>Trust</h3>
                 <div>
                     <p>
-                        Being such an old company, our growth has been with the back bone of trust with our dealers and customers. All bluebird water purifiers deliver the quality that is promised. 
+                        Being such an old company, our growth has been with the back bone of trust with our dealers and customers. All bluebird water purifiers deliver the quality that is promised.
                     </p>
                 </div>
             </div>
         </section>
     </div><!-- wraper ends here -->
-    <div id="dialog1">
-        <img class="img-responsive" src="img/product-info/BANNER-BLUEBIRD-ufn.jpg" width="1080" height="360" alt="product-info">
-    </div>
-    <div id="dialog2">
-		<img class="img-responsive" src="img/product-info/BANNER-BLUEBIRD-BLUEMOON.jpg" width="1080" height="360" alt="product-info">
-    </div>
-    <div id="dialog3">
-        <img class="img-responsive" src="img/product-info/BANNER-BLUEBIRD-ufn.jpg" width="1080" height="360" alt="product-info">
-    </div>
-    <div id="dialog4">
-        <img src="img/product-info/BANNER-BLUEBIRD.jpg" class="img-responsive" width="1080" height="360">
-    </div>
+    
     <!-- Navigation -->
     <?php
         include_once FP_ROOT . 'includes/nav-home.php';
@@ -255,56 +287,7 @@
             if (browserWidth > 1200) {
                 browserWidth = 1100;
             }
-            jQuery(document).ready(function () {
-                jQuery('#dialog1').dialog({
-                    'autoOpen': false,
-                    title: 'Pure Diamond UF',
-                    draggable: false,
-                    hide: "puff",
-                    modal: true,
-                    width: browserWidth,
-                    show: "puff"
-                });
-                $('.dt1').click(function () {
-                    $('#dialog1').dialog('open');
-                });
-                jQuery('#dialog2').dialog({
-                    'autoOpen': false,
-                    title: 'Blue Moon RO',
-                    draggable: false,
-                    hide: "puff",
-                    modal: true,
-                    width: browserWidth,
-                    show: "puff"
-                });
-                $('.dt2').click(function () {
-                    $('#dialog2').dialog('open');
-                });
-                jQuery('#dialog3').dialog({
-                    'autoOpen': false,
-                    title: 'Pure Diamond Bio',
-                    draggable: false,
-                    hide: "puff",
-                    modal: true,
-                    width: browserWidth,
-                    show: "puff"
-                });
-                $('.dt3').click(function () {
-                    $('#dialog3').dialog('open');
-                });
-                jQuery('#dialog4').dialog({
-                    'autoOpen': false,
-                    title: 'Ice Crystal RO',
-                    draggable: false,
-                    hide: "puff",
-                    modal: true,
-                    width: browserWidth,
-                    show: "puff"
-                });
-                $('.dt4').click(function () {
-                    $('#dialog4').dialog('open');
-                });
-            });
+            
         })();
     </script>
     <script>

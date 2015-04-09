@@ -29,11 +29,18 @@
     </nav>
     <div class="copyright">
         <div class="row">
-            <p class="col-md-6">
+            <div class="col-sm-12 col-xs-12 col-rc-12 hidden-md hidden-lg">
+                <a href="https://www.youtube.com/channel/UC2XjieNZBuxNukJC8rbQpZg?guided_help_flow=3"><img src="./img/web-partials/social/social_02.png" alt=""/></a>
+                <a href="https://www.facebook.com/pages/Bluebird-Water-Purifiers/994841143876917"><img src="./img/web-partials/social/social_03.png" alt=""/></a>
+                <a href="#"><img src="./img/web-partials/social/social_04.png" alt=""/></a>
+                <a href="https://twitter.com/BluebirdPure"><img src="./img/web-partials/social/social_05.png" alt=""/></a>
+                <a href="https://plus.google.com/u/0/b/107162408445010420443/107162408445010420443/about"><img src="./img/web-partials/social/social_06.png" alt=""/></a>
+            </div>
+            <p class="col-sm-12 col-xs-12 col-rc-12 col-md-6">
                 Copyright @ 2015 Bluebird Water Purifiers
             </p>
-            <p class="col-md-6 right">
-                Powered By: Brennstoff Marcom Pvt. Ltd.
+            <p class="col-sm-12 col-xs-12 col-rc-12 col-md-6 right">
+                Powered By: <a href="brennstoffmarcom.com" alt="Advertising and Printing Firm Delhi">Brennstoff Marcom Pvt. Ltd.</a>
             </p>
         </div>
     </div>

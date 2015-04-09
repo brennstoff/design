@@ -1,4 +1,4 @@
-<div class="rightPop" data-role="none">
+<div class="rightPop visible-md visible-lg" data-role="none">
     <div id="closeRight" data-role="none">
         FREE<br />
         HOME<br />
